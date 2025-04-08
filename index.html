@@ -6,19 +6,21 @@
   <title>ez1oo</title>
   <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
   <style>
-    body {
+body {
   font-family: 'ADLaM Display', cursive;
   margin: 0;
   padding: 0;
   color: #fff;
   background-color: #000;
   opacity: 0;
-  animation: fadeIn 1.2s ease-in forwards;
+  transform: translateY(-20px);
+  animation: fadeDown 1s ease-in forwards;
 }
 
-@keyframes fadeIn {
+@keyframes fadeDown {
   to {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
