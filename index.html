@@ -98,6 +98,50 @@ body {
       margin-top: 4rem;
       padding-bottom: 2rem;
     }
+
+    /* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Button styling */
+.dropbtn {
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'ADLaM Display', cursive;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #111;
+  min-width: 160px;
+  z-index: 1;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #222;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
   </style>
 </head>
 <body>
@@ -107,6 +151,13 @@ body {
     <nav>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
+      
+  <div class="dropdown">
+    <button class="dropbtn">v Projects v</button>
+    <div class="dropdown-content">
+      <a href="https://ez1oo.github.io/passchecker.github.io/" target="_blank">Password Checker</a>
+    </div>
+  </div>
     </nav>
   </header>
 
