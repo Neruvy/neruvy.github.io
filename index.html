@@ -7,34 +7,26 @@
   <link rel="icon" href="favicon.png" type="image/png" />
   <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
   <style>
-body {
-  font-family: 'ADLaM Display', cursive;
-  margin: 0;
-  padding: 0;
-  color: #fff;
-  background-color: #000;
-  opacity: 0;
-  transform: translateY(-20px);
-  animation: fadeDown 1s ease-in forwards;
-}
-
-@keyframes fadeDown {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
     body {
       font-family: 'ADLaM Display', cursive;
       margin: 0;
       padding: 0;
       color: #fff;
-      background-color: #000;
+      background-color: #282828;
+      opacity: 0;
+      transform: translateY(-17px);
+      animation: fadeDown 1s ease-in forwards;
+    }
+
+    @keyframes fadeDown {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     header {
-      background: #111;
+      background: #363636;
       padding: 1rem 2rem;
       box-shadow: 0 2px 4px rgba(255,255,255,0.05);
       display: flex;
@@ -73,7 +65,7 @@ body {
       border: 1px solid #555;
       border-radius: 4px;
       font-size: 1rem;
-      background-color: #111;
+      background-color: #353535;
       color: #fff;
     }
 
@@ -81,7 +73,7 @@ body {
       padding: 0.7rem;
       border: none;
       background: #fff;
-      color: #000;
+      color: #000000;
       font-size: 1rem;
       cursor: pointer;
       border-radius: 4px;
@@ -100,60 +92,49 @@ body {
       padding-bottom: 2rem;
     }
 
-    /* Dropdown container */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
 
-/* Button styling */
-.dropbtn {
-  background: none;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-family: 'ADLaM Display', cursive;
-  font-size: 1rem;
-  margin-left: 1rem;
-}
+    .dropbtn {
+      background: none;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-family: 'ADLaM Display', cursive;
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
 
-/* Dropdown content (hidden by default) */
-/* Dropdown content (hidden by default, animated in) */
-.dropdown-content {
-  opacity: 0;
-  transform: translateY(-10px);
-  position: absolute;
-  background-color: #111;
-  min-width: 160px;
-  z-index: 1;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  pointer-events: none;
-}
+    .dropdown-content {
+      opacity: 0;
+      transform: translateY(-10px);
+      position: absolute;
+      background-color: #505050;
+      min-width: 160px;
+      z-index: 1;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      pointer-events: none;
+    }
 
-/* Show dropdown on hover (animated) */
-.dropdown:hover .dropdown-content {
-  opacity: 1;
-  transform: translateY(0);
-  pointer-events: auto;
-}
+    .dropdown:hover .dropdown-content {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
 
-/* Links inside dropdown */
-.dropdown-content a {
-  color: white;
-  padding: 0.75rem 1rem;
-  text-decoration: none;
-  display: block;
-}
+    .dropdown-content a {
+      color: white;
+      padding: 0.75rem 1rem;
+      text-decoration: none;
+      display: block;
+    }
 
-.dropdown-content a:hover {
-  background-color: #222;
-}
-
-/* Show dropdown on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+    .dropdown-content a:hover {
+      background-color: #383838;
+    }
   </style>
 </head>
 <body>
@@ -163,60 +144,50 @@ body {
     <nav>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
-      
-  <div class="dropdown">
-    <button class="dropbtn">v Projects v</button>
-    <div class="dropdown-content">
-      <a href="https://ez1oo.github.io/password-checker/" target="_blank">Password Checker</a>
-      <a href="https://ez1oo.github.io/robloxhomepage.github.io/" target="_blank">Roblox Login Page</a>
-      <a href="https://ez1oo.github.io/Eaglercraft" target="_blank">Eaglercraft</a>
-      <a href="https://sites.google.com/vanguardacademy.net/turtleworks-unblocked/home" target="_blank">Turtleworks Unblocked</a>
-      <a href="https://sites.google.com/view/ez1oounblocked/home" target="_blank">ez1oo unblocked</a>
-      <a href="https://ez1oo.github.io/eaglercraft-clients" target="_blank">Eaglercraft Clients</a>
-      <a href="https://ez1oo.github.io/eGames" target="_blank">eGames</a>
-      <a href="https://ez1oo.github.io/05konz-blooket-site/" target="_blank">Blooket Hacks</a>
-      <a href="https://ez1oo.github.io/bloxstrap-site/" target="_blank">Fanmade Bloxstrap Site</a>
-    </div>
-  </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">v Projects v</button>
+        <div class="dropdown-content">
+          <a href="https://ez1oo.github.io/password-checker" target="_blank">Password Checker</a>
+          <a href="https://ez1oo.github.io/robloxhomepage.github.io/" target="_blank">Roblox Login Page</a>
+          <a href="https://ez1oo.github.io/Eaglercraft" target="_blank">Eaglercraft</a>
+          <a href="https://sites.google.com/vanguardacademy.net/turtleworks-unblocked/home" target="_blank">Turtleworks Unblocked</a>
+          <a href="https://sites.google.com/view/ez1oounblocked/home" target="_blank">ez1oo unblocked</a>
+          <a href="https://ez1oo.github.io/eaglercraft-clients" target="_blank">Eaglercraft Clients</a>
+          <a href="https://ez1oo.github.io/eGames" target="_blank">eGames</a>
+          <a href="https://ez1oo.github.io/05konz-blooket-site/" target="_blank">Blooket Hacks</a>
+          <a href="https://ez1oo.github.io/bloxstrap-site/" target="_blank">Fanmade Bloxstrap Site</a>
+        </div>
+      </div>
     </nav>
   </header>
 
   <main class="container">
     <section id="about">
       <h2>About Me</h2>
-      <p>Hello! I'm Ezio, a creative kid who enjoys making all kinds of random projects using HTML and CSS.
-        Currently, I'm learning more about HTML and CSS so I can build even cooler and more polished projects in the future.
-</a>
-</p>
+      <p>Hello! I'm Ezio, a creative kid who enjoys making all kinds of random projects using HTML and CSS. 
+        Currently, I'm learning more about HTML and CSS so I can build even cooler and more polished projects in the future.</p>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-
-<form
-  action="https://formspree.io/f/mwplwgja"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-      </label
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
- 
-  <button type="submit">Send</button>
-</form>
+      <form action="https://formspree.io/f/mwplwgja" method="POST">
+        <label>
+          Your email:
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Your message:
+          <input type="message" required>
+        </label>
+        <button type="submit">Send</button>
       </form>
     </section>
   </main>
 
   <footer>
-    Google, please stop saying my website is dangerous. There is nothing dangerout about a contact page or a portfolio.
-    </div>
-  <p>Check out my <a href="https://github.com/ez1oo">GitHub profile</a>.</p>
-
+    <p>Google, please stop saying my website is dangerous. There is nothing dangerous about a contact page or a portfolio.</p>
+    <p>Check out my <a href="https://github.com/ez1oo" target="_blank">GitHub profile</a>.</p>
   </footer>
 
 </body>
